@@ -1,29 +1,128 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="th">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio nantana </title>
+    <title>My Portfolio</title>
 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Prompt',sans-serif;
+        }
+
+        body{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#DCC6FF,#FFD6A5,#FFF3B0);
+        }
+
+        .container{
+            width:90%;
+            max-width:900px;
+            background:rgba(255,255,255,0.65);
+            backdrop-filter:blur(10px);
+            border-radius:25px;
+            padding:50px;
+            text-align:center;
+            box-shadow:0 15px 35px rgba(0,0,0,0.12);
+        }
+
+        h1{
+            font-size:3rem;
+            color:#6F4AB7;
+            margin-bottom:10px;
+        }
+
+        h2{
+            font-size:1.4rem;
+            color:#FF8C42;
+            font-weight:500;
+            margin-bottom:25px;
+        }
+
+        p{
+            color:#555;
+            line-height:1.8;
+            margin-bottom:35px;
+            font-size:1.05rem;
+        }
+
+        nav{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:18px;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:white;
+            background:linear-gradient(135deg,#8F6BFF,#FFB26B);
+            padding:12px 24px;
+            border-radius:30px;
+            transition:.3s;
+            font-weight:500;
+        }
+
+        nav a:hover{
+            transform:translateY(-4px);
+            background:linear-gradient(135deg,#7A5AF8,#FFA94D);
+            box-shadow:0 10px 20px rgba(0,0,0,.15);
+        }
+
+        .emoji{
+            font-size:60px;
+            margin-bottom:15px;
+        }
+
+        footer{
+            margin-top:40px;
+            color:#777;
+            font-size:14px;
+        }
+    </style>
 </head>
 
-<body bgcolor="31F527">
+<body>
 
-<img src="images/Screenshot 2026-06-17 113654.png">
+<div class="container">
 
-<h1>นางสาวนันทนา ลีลา </br>
+    <div class="emoji">🌸💜🧡</div>
 
+    <h1>My Portfolio</h1>
 
+    <h2>แฟ้มสะสมผลงานของฉัน</h2>
 
-<p>นักเรียนชั้นมัธยมศึกษาปีที่6 </p>
+    <p>
+        ยินดีต้อนรับเข้าสู่เว็บไซต์ Portfolio
+        เว็บไซต์นี้จัดทำขึ้นเพื่อรวบรวมข้อมูลเกี่ยวกับ
+        ประวัติส่วนตัว ประวัติการศึกษา ผลงาน
+        และช่องทางการติดต่อ เพื่อใช้ประกอบการศึกษา
+        และการนำเสนอผลงาน
+    </p>
 
+    <nav>
+        <a href="index.html">🏠 หน้าแรก</a>
+        <a href="profile.html">👤 ประวัติส่วนตัว</a>
+        <a href="education.html">🎓 ประวัติการศึกษา</a>
+        <a href="award.html">🏆 ผลงาน</a>
+        <a href="contact.html">📞 ติดต่อ</a>
+    </nav>
 
+    <footer>
+        © 2026 My Portfolio | Student Portfolio
+    </footer>
 
-<p>โรงเรียนพานทอง</p>
-
-
+</div>
 
 </body>
-
 </html>
