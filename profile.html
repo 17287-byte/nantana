@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว | My Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Prompt',sans-serif;
+        }
+
+        body{
+            background:linear-gradient(135deg,#DCC6FF,#FFD6A5,#FFF3B0);
+            min-height:100vh;
+        }
+
+        header{
+            background:rgba(255,255,255,0.7);
+            backdrop-filter:blur(10px);
+            padding:18px 0;
+            box-shadow:0 3px 10px rgba(0,0,0,.08);
+        }
+
+        nav{
+            display:flex;
+            justify-content:center;
+            gap:18px;
+            flex-wrap:wrap;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:#6F4AB7;
+            font-weight:500;
+            padding:8px 16px;
+            border-radius:20px;
+            transition:.3s;
+        }
+
+        nav a:hover{
+            background:#ffffff;
+        }
+
+        .container{
+            width:90%;
+            max-width:950px;
+            margin:40px auto;
+            background:rgba(255,255,255,.75);
+            backdrop-filter:blur(8px);
+            border-radius:20px;
+            padding:40px;
+            box-shadow:0 10px 25px rgba(0,0,0,.12);
+        }
+
+        h1{
+            text-align:center;
+            color:#6F4AB7;
+            margin-bottom:30px;
+        }
+
+        .profile{
+            display:flex;
+            flex-wrap:wrap;
+            gap:30px;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .profile img{
+            width:220px;
+            height:220px;
+            border-radius:50%;
+            object-fit:cover;
+            border:6px solid #ffffff;
+            box-shadow:0 5px 15px rgba(0,0,0,.15);
+        }
+
+        .info{
+            flex:1;
+            min-width:280px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        td{
+            padding:10px;
+            border-bottom:1px solid #ddd;
+        }
+
+        td:first-child{
+            width:180px;
+            font-weight:bold;
+            color:#6F4AB7;
+        }
+
+        h2{
+            margin-top:35px;
+            margin-bottom:15px;
+            color:#FF8C42;
+        }
+
+        p{
+            color:#444;
+            line-height:1.8;
+        }
+
+        ul{
+            margin-left:20px;
+            color:#444;
+            line-height:1.8;
+        }
+
+        footer{
+            text-align:center;
+            margin-top:40px;
+            color:#666;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">หน้าแรก</a>
+        <a href="profile.html">ประวัติส่วนตัว</a>
+        <a href="education.html">ประวัติการศึกษา</a>
+        <a href="award.html">ผลงาน</a>
+        <a href="contact.html">ติดต่อ</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h1>ประวัติส่วนตัว</h1>
+
+    <div class="profile">
+
+        <!-- เปลี่ยนชื่อไฟล์รูปของตนเอง -->
+        <img src="profile.jpg" alt="รูปภาพนักเรียน">
+
+        <div class="info">
+            <table>
+                <tr>
+                    <td>ชื่อ - นามสกุล</td>
+                    <td>นาย/นางสาว ................................</td>
+                </tr>
+
+                <tr>
+                    <td>ชื่อเล่น</td>
+                    <td>................................</td>
+                </tr>
+
+                <tr>
+                    <td>วันเกิด</td>
+                    <td>................................</td>
+                </tr>
+
+                <tr>
+                    <td>อายุ</td>
+                    <td>18 ปี</td>
+                </tr>
+
+                <tr>
+                    <td>กำลังศึกษา</td>
+                    <td>ชั้นมัธยมศึกษาปีที่ 6</td>
+                </tr>
+
+                <tr>
+                    <td>โรงเรียน</td>
+                    <td>................................</td>
+                </tr>
+
+                <tr>
+                    <td>แผนการเรียน</td>
+                    <td>................................</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <h2>เกี่ยวกับฉัน</h2>
+
+    <p>
+        เป็นนักเรียนชั้นมัธยมศึกษาปีที่ 6 มีความสนใจในการเรียนรู้สิ่งใหม่
+        มีความรับผิดชอบ ตรงต่อเวลา สามารถทำงานร่วมกับผู้อื่นได้ดี
+        และกำลังพัฒนาทักษะด้านเทคโนโลยี การเขียนโปรแกรม
+        รวมถึงการสร้างเว็บไซต์เพื่อเตรียมความพร้อมสำหรับการศึกษาต่อในระดับมหาวิทยาลัย
+    </p>
+
+    <h2>ความสามารถและทักษะ</h2>
+
+    <ul>
+        <li>Microsoft Word, PowerPoint และ Excel</li>
+        <li>HTML และ CSS เบื้องต้น</li>
+        <li>Canva สำหรับออกแบบงานนำเสนอ</li>
+        <li>ทำงานเป็นทีมและสื่อสารได้ดี</li>
+        <li>เรียนรู้สิ่งใหม่ได้รวดเร็ว</li>
+    </ul>
+
+    <h2>งานอดิเรก</h2>
+
+    <ul>
+        <li>อ่านหนังสือ</li>
+        <li>ฟังเพลง</li>
+        <li>ออกกำลังกาย</li>
+        <li>ศึกษาการเขียนเว็บไซต์</li>
+        <li>ถ่ายภาพ</li>
+    </ul>
+
+    <h2>เป้าหมายในอนาคต</h2>
+
+    <p>
+        มุ่งมั่นพัฒนาความรู้และทักษะด้านเทคโนโลยี
+        เพื่อศึกษาต่อในระดับอุดมศึกษา และนำความรู้ไปประยุกต์ใช้ในการทำงาน
+        พร้อมทั้งพัฒนาตนเองให้เป็นบุคคลที่มีคุณภาพและเป็นประโยชน์ต่อสังคม
+    </p>
+
+    <footer>
+        © 2026 My Portfolio
+    </footer>
+
+</div>
+
+</body>
+</html>
